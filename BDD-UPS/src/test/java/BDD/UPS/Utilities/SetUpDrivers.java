@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SetUpDrivers {
 	public static WebDriver chromeDriver;
 	public static void SetUpChromeDriver()
-	{WebDriverManager.chromedriver().version("ChromeDriver 81.0.4044.138").setup();
+	{WebDriverManager.chromedriver().version("81.0.4044.138").setup();
 	chromeDriver =new ChromeDriver();
 }
 	public static WebDriver getChromeDriver()
